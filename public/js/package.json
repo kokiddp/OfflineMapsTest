@@ -1,0 +1,17 @@
+{
+  "name": "offlinemapstest",
+  "version": "1.0.0",
+  "description": "OfflineMapsTest",
+  "main": "offline-maps-test-public.js",
+  "author": "Gabriele Coquillard",
+  "license": "GPL-2.0-or-later",
+  "dependencies": {},
+  "devDependencies": {
+    "uglify-js": "^3.4.9",
+    "watchify": "^3.11.0"
+  },
+  "scripts": {
+    "watch": "watchify src.js -o offline-maps-test-public.js -v",
+    "build": "uglifyjs -m -c -o offline-maps-test-public.min.js offline-maps-test-public.js"
+  }
+}
