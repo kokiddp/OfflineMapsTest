@@ -53,7 +53,7 @@ class Offline_Maps_Test_Admin_Options {
 	 * @return void
 	 */
 	public function include_options_page() {
-		include_once 'partials/vpb-admin-display.php';
+		include_once 'partials/offline-maps-test-admin-display.php';
 	}
 
 	/**
