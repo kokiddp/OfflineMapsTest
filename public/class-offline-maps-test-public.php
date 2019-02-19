@@ -73,7 +73,7 @@ class Offline_Maps_Test_Public {
 
 		$this::add_dependencies();
 
-		$this->shortcodes = new Vpb_Public_Shortcodes();
+		$this->shortcodes = new Offline_Maps_Test_Public_Shortcodes();
 
 		$this->options = get_option( 'offline-maps-test_options' );
 
