@@ -5,7 +5,9 @@
   "main": "offline-maps-test-public.js",
   "author": "Gabriele Coquillard",
   "license": "GPL-2.0-or-later",
-  "dependencies": {},
+  "dependencies": {
+    "leaflet.offline": "^1.0.4"
+  },
   "devDependencies": {
     "uglify-js": "^3.4.9",
     "watchify": "^3.11.0"
